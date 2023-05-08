@@ -11,6 +11,7 @@ typedef struct pilha{
     NO * topo; 
     int tam;
 
+ 
     struct pilha *prox;
 }PILHA;
 
