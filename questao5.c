@@ -12,6 +12,7 @@ typedef struct pilha {
     int tam;
 } PILHA;
 
+
 void empilhar(char c, PILHA *p) {
     NO *novo = (NO *) malloc(sizeof(NO));
     novo->valor = c;
