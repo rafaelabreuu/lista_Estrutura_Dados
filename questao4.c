@@ -6,10 +6,12 @@ typedef struct no {
     struct no* prox;
 } NO;
 
+
 typedef struct pilha {
     NO* topo;
     int tam;
 } PILHA;
+
 
 void push(float valor, PILHA* p) {
     NO* novo = (NO*) malloc(sizeof(NO));
