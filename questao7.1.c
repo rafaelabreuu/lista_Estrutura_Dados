@@ -9,6 +9,7 @@ typedef struct no{
 }NO;
 
 
+
 typedef struct pilha{
     //valores
     NO * topo; //topo
